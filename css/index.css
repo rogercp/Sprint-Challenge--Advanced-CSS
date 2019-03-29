@@ -274,7 +274,7 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn button {
+.home .btn button {
   display: block;
   cursor: pointer;
   height: 35px;
@@ -284,21 +284,26 @@ footer {
   background-color: #22283A;
   color: white;
 }
-.home .walk .walk-text .btn button:hover {
+.home .btn button:hover {
   background-color: white;
   color: #22283A;
 }
 @media (max-width:500px) {
   .home .btn button {
+    width: 100%;
     display: flex;
-    width: 80%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 @media (max-width:500px) {
   .home .walk {
     flex-direction: column-reverse;
     width: 100%;
-    padding: 5%;
+    padding-bottom: 30px;
+    text-align: center;
   }
 }
 .home .walk-img {
