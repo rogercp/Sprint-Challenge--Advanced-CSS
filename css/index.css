@@ -145,6 +145,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
 }
+h1 {
+  font-size: 4rem;
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -160,10 +163,31 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.intro img {
+  border-radius: 5px;
+  width: 100%;
+}
 .top-nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #F6F6F6;
+  padding: 2rem;
+}
+.top-nav nav {
+  width: 50;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.top-nav nav a {
+  text-decoration: none;
+  color: #23293B;
+  font-size: 1.8rem;
+}
+.top-nav nav a:hover {
+  text-decoration: underline;
 }
 footer {
   color: #22283B;
