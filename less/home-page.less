@@ -58,10 +58,6 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
-    @media @mobile{
-      .walk{
-        flex-direction: column;
-      }}
 
     .walk-text {
       width: 50%;
@@ -78,11 +74,12 @@
         .custom-btn();
       }
     }
+  }
     @media @mobile{
       .walk{
         flex-direction: column;
         .walk .walk-text{
-          order:2
+          order:2;
         }
         .walk .walk-img{
           order:1;
@@ -101,4 +98,5 @@
       }
     }
   }
-}// home
+
+// home
