@@ -1,1 +1,37 @@
-// Mixins Here
+// Mixins Here// Follow the order in the readme
+.custom-btn(@width:27% ;@height: 35px;@bgColor:@btn-bg-color; @fontColor:white ) 
+{
+    display: block;
+    cursor: pointer;
+    height: @height;
+    font-size: 2rem;
+    border-radius: 6px;
+    width:@width;
+    background-color: @bgColor;
+    color: @fontColor;
+      
+    &:hover {
+      background-color: @fontColor;
+      color: @bgColor;
+    }
+}
+
+
+
+
+.nav(@width:35%;@justify-content:space-between) 
+{
+  width: @width;
+  display: flex;
+  justify-content:@justify-content;
+  
+   a {
+      text-decoration: none;
+      color:@ebony-clay;
+      font-size:1.8rem; 
+      &:hover{
+        text-decoration: underline;
+      }
+      
+  }
+}
